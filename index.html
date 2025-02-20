@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+       
+                
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+
+        <title>Personal website portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">My Portifolio</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/munezero-hugues-7508282a2/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://twitter.com/@munezerohugues" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                            <a href="https://www.github.com" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <img src="packages/images/id.jpg" class="home__blob-img"/>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'am Hugues</h1>
+                            <h3 class="home__subtitle">ALU student</h3>
+                            <p class="home__description">Currently studying Bsc in Honours of Software Engineering.</p>
+                            <a href="#contact" class="button button--flex home__button">
+                                Contact Me<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="packages/images/id2.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            Hi, I'm  a student at ALU passionate about machine learning. 
+                            I aim to grow in software, especially machine learning, and contribute to those in need.
+                            Where I dream on enabling everyone to digitalise anything using AI 
+                            
+                        </p>
+                        
+                    </div>
+                </div>
+            </section>
+
+        
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification__section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    
+                </div>
+
+                <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT  ====================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+             <!--==================== QUALIFICATION 1 ====================--> 
+             <div class="qualification__data">
+                 <div>
+                     <h3 class="qualification__title">O'Level </h3>
+                     <span class="qualification__subtitle">Lycee de Kigali</span>
+                     <div class="qualification__calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2017 - 2019
+                     </div>
+                 </div>
+
+                 <div>
+                     <span class="qualification__rounder"></span>
+                     <span class="qualification__line"></span>
+                 </div>
+             </div>
+             
+             <!--==================== QUALIFICATION 2 ====================--> 
+             <div class="qualification__data">
+                <div></div>
+                <div>
+                   <span class="qualification__rounder"></span>
+                   <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                    <h3 class="qualification__title">Adavance Level</h3>
+                    <span class="qualification__subtitle">Ecole Secondaire Bumbogo</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2020 - 2023
+                    </div>
+                </div>
+            </div> 
+
+            <!--==================== QUALIFICATION 3 ====================--> 
+            <div class="qualification__data">
+                <div>
+                    <h3 class="qualification__title">AiCE(AI Career Essentials)</h3>
+                    <span class="qualification__subtitle">Alx Rwanda</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2023(nov) - 2024(march)
+                    </div>
+                </div>
+
+                <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                </div>
+            </div> 
+
+            <!--==================== QUALIFICATION 4 ====================--> 
+            <div class="qualification__data">
+                <div></div>
+                <div>
+                    <span class="qualification__rounder"></span>
+                   <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <div>
+                    <h3 class="qualification__title">Bsc Software Engineering</h3>
+                    <span class="qualification__subtitle">African Leadership University</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2024(May)-Present
+                    </div>
+                </div>
+
+                
+            </div>
+            
+        </section>
+      
+        
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent works</span>
+
+            
+        <!--==================== PORTFOLIO 1 ====================-->
+        
+            <div class="portfolio__content grid ">
+                <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Course Recommender System</h3>
+                    <p class="portfolio__description">A project we worked on in secod term used to recommend courses to student 
+                        who are enrolling in alu according to grades you got. Using python</p>
+                    <a href="https://github.com/munhugues/Class_project.git" target="_blank" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+          
+
+            <!--==================== PORTFOLIO 2 ====================-->
+        
+            <div class="portfolio__content grid ">
+                <img src="./packages/images/portfolio2.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Personal Website Portfolio</h3>
+                    <p class="portfolio__description">It is this website that displays my portfolio.
+                        It is created using HTML, CSS and JavaScript
+                    </p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+                </div>
+
+            
+            
+        
+        </div>
+
+        </section>
+
+                
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contatc__subtitle">(+250) 790 893 781</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contatc__subtitle">h.munezero@alustudent.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">Kimironko, Kigali</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Hugues Munezero   </h1>
+                    <span class="footer__subtitle">ALU student</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                
+            </div>
+            
+        </div>
+    </footer>
+
+  
+    
+
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+</body>
+
+</html>
